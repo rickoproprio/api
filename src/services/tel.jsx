@@ -1,7 +1,7 @@
 async function tel(request) {
   try {
     const response = await fetch(
-      `http://br3.bronxyshost.com:3015/tel2/${request}/teste8`
+      `url`
     );
     console.log(response);
     const data = await response.resultado.json();
